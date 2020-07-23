@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modal</title>
+	<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script type="text/javascript" src="app.js"></script>
+<style type="text/css">
+	.img{
+		width: 100px;
+		height: 100px;
+		cursor: pointer;
+	}
+	img {
+      border: 1px solid rgb(215, 215, 252);
+      padding: 10px;
+      margin-top: 80px;
+      width: 150px;
+      height: 150px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+</style>
+</head>
+<body>
+
+<!-- Image trigger modal -->
+	<div>
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/1.jpg">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/2.jpg">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/3.jpg">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/4.png">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/5.jpg">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/6.jpg">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/7.png">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/8.jpg">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/9.jpg">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/10.jpg">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/11.jpg">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/12.jpg">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/13.jpg">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/14.png">
+<img data-toggle="modal" data-target="#exampleModal" class="img" src="images/15.jpg">
+	</div>
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal fade" role="dialog" id="exampleModal">
+    <div class="modal-dialog">
+        <div class="modal-content"></div>          
+            <img class="img-responsive" src="" id="show-img">         
+        </div>
+    </div>
+</div> 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+  <!-- chapter # 43-48
+         task 1 -->
+    <a href="#" onclick="a()">CLICK HERE</a>
+
+<!-- 
+    task 2 -->
+    <div>
+        <h1>Mobile Phone Lookup</h1>
+    </div>
+    <div><img src="ENYQiHUXkAETy04.jpg" class="edi" alt="" onclick="message()">
+        <img src="A9 2020 300x300-2x.png" alt="" class="ed" onclick="message()">
+        <img src="elwjwttd91e.jpg" alt="" class="edit" onclick="message()">
+        <img src="white_d418e61c-c076-430e-9143-a07d39907f40_1024x.webp" alt="" class="edit" onclick="message()">
+        <img src="infinix-Hot-8.jpg" alt="" class="edit" onclick="message()"></div>
+
+
+
+    <!-- task 3 -->
+    <table>
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+        </tr>
+        <tr id="0">
+            <td >0</td>
+            <td>Jhone</td>
+            <td>10</td>
+           <td> <button onclick="del(0)">Delete</button></td>
+        </tr>
+        <tr id="1">
+            <td >1</td>
+            <td>Doe</td>
+            <td>9</td>
+            <td> <button onclick="del(1)">Delete</button></td>
+        </tr>
+        <tr id="2">
+            <td>2</td>
+            <td>Mark</td>
+            <td>10</td>
+            <td> <button onclick="del(2)">Delete</button></td>
+        </tr>
+        <tr id="3">
+            <td>3</td>
+            <td>James</td>
+            <td>8</td>
+            <td> <button onclick="del(3)">Delete</button></td>
+        </tr>
+        <tr id="4">
+            <td>4</td>
+            <td>Sam</td>
+            <td>7</td>
+           <td> <button onclick="del(4)">Delete</button></td>
+        </tr>
+        <tr id="5">
+            <td>5</td>
+            <td>Charley</td>
+            <td>9</td>
+            <td> <button onclick="del(5)">Delete</button></td>
+        </tr>
+        <tr id="6">
+            <td>6</td>
+            <td>Kerla</td>
+            <td>10</td>
+            <td> <button onclick="del(6)">Delete</button></td>
+        </tr>
+        <tr id="7">
+            <td>7</td>
+            <td>Jamey</td>
+            <td>8</td>
+            <td> <button onclick="del(7)">Delete</button></td>
+        </tr>
+        <tr id="8">
+            <td>8</td>
+            <td>Sid</td>
+            <td>8</td>
+            <td> <button onclick="del(8)">Delete</button></td>
+        </tr>
+        <tr id="9">
+            <td>9</td>
+            <td>Thomsan</td>
+            <td>7</td>
+            <td> <button onclick="del(9)">Delete</button></td>
+        </tr>
+    </table>
+
+
+
+    <!-- task  4-->
+    <img id="1" class="ab" src="orsrc35618.jpg" alt=""
+     onmouseover="change()" onmouseout="ch()">
+
+
+   <!--  task 5 -->
+    <div>
+        <h1>COUNTER</h1>
+    </div>
+    <div ><h1 id="count">0</h1></div>
+    <div class="but">
+        <button onclick="inc()">Increase</button>
+        <button onclick="dec()">Decrease</button></div>
+
+<!-- chapter49-52 -->
+<div class="form">
+        <h1 class="head">Sign Up</h1>
+        <p>Enter your information here</p>
+        <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+        <input type="text" name="email" id="email" placeholder="Enter your Email"><br>
+        <input type="password" name="password" id="pass" placeholder="Enter your password"><br>
+        <input type="password" name="password" placeholder="Confirm your password"><br>
+        <button  class="butt" onclick="submit()">submit</button>
+    </div>
+
+  <img src="microsoft_surface_laptop_3_-_cobalt_blue1_-_tejar_3.jpg" width="300px" height="220px" alt="">
+    <h1>Microsoft Surface Laptop.</h1>
+    <p id="ab"><b>By:</b> Microsost.<br>
+        Be the first to review this product<br>
+       <b> Colour available:</b> Silver, Black, Grey, Sandstone.</p>
+    <button onclick="data()">Read more...</button>
+
+ <div id="f" class="form">
+        <h1 class="head">Student Details</h1>
+        <p>Enter your information here</p>
+        <input type="text" name="name" id="name" placeholder="Enter your Name"><br>
+        <input type="text" name="fathername" id="fname" placeholder="Enter your Father name"><br>
+        <input type="text" name="rollno" id="rollno" placeholder="Enter your Roll No."><br>
+        <input type="text" name="class" id="class" placeholder="Enter your Class"><br>
+        <input type="text" name="faculty" id="fac" placeholder="Enter your Faculty"><br>
+        <button class="butt" onclick="submit()"> submit</button>
+    </div>
+    <table id="tab" class="dis tab">
+        <tr>
+            <th>STUDENTS DATA</th>
+        </tr>
+    </table>
+    <div id="editform" class="form dis">
+        <h1 class="head">Edit Information</h1>
+        <p>Edit your information</p>
+        <input type="text" id="ename" placeholder="Enter your Name"><br>
+        <input type="text" id="efname" placeholder="Enter your Father name"><br>
+        <input type="text" id="erollno" placeholder="Enter your Roll No."><br>
+        <input type="text" id="eclass" placeholder="Enter your Class"><br>
+        <input type="text" id="efac" placeholder="Enter your Faculty"><br>
+        <button class="butt" onclick="save()">Save</button>
+    </div>
+
+<div><h1> DOM </h1><div id="form-content" class="content"><label for="first-name">First Name</label><input type="text" id="first-name"/><label for="last-name">Last Name</label><input type="text" id="last-name"/><label for="email">Email</label><input type="text" id="email"/></div><div id="main-content" class="content"><p class="render"> First Name : Alex</p><p class="render" id="lastName">Last Name: Bank</p><p class="render"> Email : alexbank@example.com</p><p class="render"> Country : Pakistan </p><p class="render"> contact : +92 300 1234567</p></div></div>
+
+
+
+<div class="container">
+    <div class="col-md-12">
+      <div class="row align-item-center text-center">
+        <div class="col-md-2">
+          <img  onclick="Usms()" src="https://www.telemart.pk/uploads/product_image/product_115809_1_thumb.jpg" name="" id="pic">
+          <p>Xiaomi Black Shark</p>
+        </div>
+
+
+        <div class="col-md-2">
+          <img onclick="Usms()" src="https://www.telemart.pk/uploads/product_image/product_115827_1_thumb.jpg" name="" id="pic">
+          <p>OnePlus 8 Pro</p>
+        </div>
+
+
+        <div class="col-md-2">
+          <img onclick="Usms()" src="https://www.telemart.pk/uploads/product_image/product_112827_1_thumb.jpg" name="" id="pic">
+          <p>Samsung Galaxy S20 Plus</p>
+        </div>
+
+        <div class="col-md-2">
+          <img onclick="Usms()" src="https://www.telemart.pk/uploads/product_image/product_116417_1_thumb.jpg" name="" id="pic">
+          <p>Vivo V19</p>
+        </div>
+
+
+        <div class="col-md-2">
+          <img onclick="Usms()" src="https://www.telemart.pk/uploads/product_image/product_107235_1_thumb.jpg" name="" id="pic">
+          <p>Infinix Hot 8</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br />
+  <br />
+  <br />
+  <br />
+
+
+  <table class="table" id="mytab">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Course</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Shaheen</td>
+        <td>Web Design</td>
+        <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Noshaba</td>
+        <td>Graphic Design</td>
+        <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Tuba</td>
+        <td>Andriod Developer</td>
+        <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+
+      <tr>
+        <th scope="row">4</th>
+        <td>Sidra</td>
+        <td>Html</td>
+        <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+
+      <tr>
+        <th scope="row">5</th>
+        <td>Unzilla</td>
+        <td>Ios Developer</td>
+        <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+
+      <tr>
+        <th scope="row">6</th>
+        <td>kafeel</td>
+        <td>Basics Computer</td>
+        <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+
+      <tr>
+        <th scope="row">7</th>
+        <td>Ahmed</td>
+        <td>Ms Office</td>
+        <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+
+      <tr>
+        <th scope="row">8</th>
+        <td>Alisha</td>
+        <td>C.I.T</td>
+        <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+
+      <tr>
+        <th scope="row">9</th>
+        <td>Arman</td>
+        <td>D.I.T</td>
+        <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+
+      <tr>
+        <th scope="row">10</th>
+        <td>Drushka</td>
+        <td>Full Stack Developer</td>
+        <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+  <br />
+  <br />
+  <br />
+  <br />
+
+
+
+  <img id="img1" onmouseover="SetNewImage()" onmouseout="SetOldImage()" src="images/others/1.jpg" alt="Muzammil Ashfaque" style="width: 300px; height: 300px;">
+
+  <br />
+  <br />
+ 
+  <button onclick="abc()">Increment</button>
+  <button onclick="abc1()">Decrement</button>
+  <h1 id="change">0</h1>
+
+
+
+ <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <img src="" alt="" id="img" width="500px" height="500px">
+            </div>
+        </div>
+    </div>
+
+<!-- <script type="text/javascript">
+	    $(document).ready(function(){
+        $("img").click(function(){
+           var img=$(this).attr('src');
+             $("#show-img").attr('src',img);
+             $("#exampleModal").modal('show');
+        });
+    });
+</script> -->
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
